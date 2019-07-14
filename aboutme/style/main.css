@@ -1,0 +1,128 @@
+{box-sizing: border-box}
+
+.slideshow-container {
+ max-width: 1000px;
+ position: relative;
+ margin: auto;
+}
+.myslides{
+ display: none;
+}
+.prev, .next {
+ cursor: pointer;
+ top: 50%;
+ width: auto;
+ margin-top: -22px;
+ padding: 16px;
+ color: black;
+ font-weight: bold;
+ font-size: 18px;
+ transition: 0.6s ease;
+ border-radius: 0 3px 3px 0;
+
+}
+.next {
+ right: 0;
+ border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+ background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+ color: black;
+ font-size: 15px;
+ padding: 8px 12px;
+ bottom: 8px;
+ width: 100%;
+ text-align: center;
+}
+
+.numbertext {
+ color: black;
+ font-size: 12px;
+ padding: 8px 12px;
+ top: 0;
+}
+.dot {
+ cursor: pointer;
+ height: 15px;
+ width: 15px;
+ margin: 0 2px;
+ background-color: #bbb;
+ border-radius: 50%;
+ display: inline-block;
+ transition: background-color 0.6s ease;
+}
+
+.dot:hover {
+ background-color: #717171;
+}
+.fade {
+ -webkit-animation-name: fade;
+ -webkit-animation-duration: 1.5s;
+ animation-name: fade;
+ animation-duration: 1.5s;
+}
+
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  padding: 1px;
+  text-align: center;
+  justify-content: space-around;
+}
+.navbar >li{
+  font-size: 20px;
+  padding: 1px;
+  text-align: center;
+  border: 2px solid black;
+  flex: 1;
+}
+.navbar >li:hover{
+  background-color: red;
+}
+
+li a{
+text-decoration: none;
+}
+li {
+  list-style: none;
+}
+body,html{background-color: #E0FFFF;}
+
+ h3 {color:red;}
+ h1 {color:red;}
+ p {color:red;}
+ li.important {color: red; bold;}
+ ol {color: red}
+ body {border-style: dashed;}
+ body {text-shadow: 2px 2px 5px white;}
+#intro {text-align:center;}
+
+textarea {
+  width: 350px;
+  height: 100px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+
+
+label {
+  display: block;
+  font-size: 1.252em;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+#checkbox-label {
+	display: inline-block;
+	font-size: 1em;
+}
+
+#check-smash {
+	margin-bottom: 20px;
+}

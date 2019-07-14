@@ -1,0 +1,118 @@
+<html>
+    <head>
+<link rel="stylesheet" href="style/main.css">
+    </head>
+<body>
+<nav class="navbar">
+  <li> <a href="aboutme.html">About Me</a></li>
+  <li> <a href="index.html">Index</a></li>
+  <li> <a href="projects.html">Vision Board</a></li>
+  <li> <a href="resume.html">Resume</a></li>
+  <li> <a href="contact.html"> Contact Me</a></li>
+     </nav>
+
+<div class="slideshow-container">
+
+     <div class="myslidesfade">
+         <div class="numbertext">1 / 10</div>
+         <img src="assest/photo1.jpg" style="width:100%">
+         <div class="text">BIG BANK</div>
+       </div>
+
+       <div class="myslidesfade">
+         <div class="numbertext">2 / 10</div>
+         <img src="assest/photo2.jpg" style="width:100%">
+         <div class="text">Visit Multiple Beaches</div>
+       </div>
+
+       <div class="myslidesfade">
+         <div class="numbertext">3 / 10</div>
+         <img src="assest/photo3.jpg" style="width:100%">
+         <div class="text">Live My Life</div>
+
+         <div class="myslidesfade">
+         <div class="numbertext">4 / 10</div>
+         <img src="assest/photo4.jpg" style="width:100%">
+           <div class="text">Become a Nurse</div>
+
+           <div class="myslidesfade">
+             <div class="numbertext">5 / 10</div>
+             <img src="assest/photo5.jpg" style="width:100%">
+             <div class="text">Buy a G Wagon</div>
+
+            <div class="myslidesfade">
+               <div class="numbertext">6 / 10</div>
+               <img src="assest/photo6.jpg" style="width:100%">
+               <div class="text">Travel the World</div>
+
+               <div class="myslidesfade">
+                 <div class="numbertext">7/ 10</div>
+                 <img src="assest/photo7.jpg" style="width:100%">
+                 <div class="text">Give Back to My Community</div>
+
+                 <div class="myslidesfade">
+                   <div class="numbertext">8 / 10</div>
+                   <img src="assest/photo8.jpg" style="width:100%">
+                   <div class="text"> Mercdes Benz</div>
+
+                   <div class="myslidesfade">
+                     <div class="numbertext">9 / 10</div>
+                     <img src="assest/photo9.jpg" style="width:100%">
+                     <div class="text">Build My Own House</div>
+
+                     <div class="myslidesfade">
+                       <div class="numbertext">10/ 10</div>
+                       <img src="assest/photo10.jpg" style="width:100%">
+                       <div class="text">Create a Family</div>
+
+
+       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+       <a class="next" onclick="plusSlides(1)">&#10095;</a>
+     </div>
+     <br>
+
+     <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = "myslidesfade";
+  var dots = "dot";
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html>
+
+
+     <div style="text-align:center">
+       <span class="dot" onclick="currentSlide(1)"></span>
+       <span class="dot" onclick="currentSlide(2)"></span>
+       <span class="dot" onclick="currentSlide(3)"></span>
+       <span class="dot" onclick="currentSlide(4)"></span>
+       <span class="dot" onclick="currentSlide(5)"></span>
+       <span class="dot" onclick="currentSlide(6)"></span>
+       <span class="dot" onclick="currentSlide(7)"></span>
+       <span class="dot" onclick="currentSlide(8)"></span>
+       <span class="dot" onclick="currentSlide(9)"></span>
+       <span class="dot" onclick="currentSlide(10)"></span>
+     </div>
