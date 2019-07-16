@@ -1,3 +1,4 @@
+
 {box-sizing: border-box}
 
 .slideshow-container {
@@ -96,8 +97,8 @@ body,html{background-color: #E0FFFF;}
  h3 {color:red;}
  h1 {color:red;}
  p {color:red;}
- li.important {color: red; bold;}
- ol {color: red}
+ li.important {color: red;}
+ ol {color: red;}
  body {border-style: dashed;}
  body {text-shadow: 2px 2px 5px white;}
 #intro {text-align:center;}
@@ -125,4 +126,8 @@ label {
 
 #check-smash {
 	margin-bottom: 20px;
+}
+iframe {
+  margin-left: auto;
+  margin-right: auto;
 }
