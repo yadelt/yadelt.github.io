@@ -137,3 +137,5 @@ div, iframe {
     margin: 0 auto;
     display: block;
 }
+body {text-shadow: 2px 2px 5px white;}
+
