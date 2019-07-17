@@ -127,15 +127,10 @@ label {
 #check-smash {
 	margin-bottom: 20px;
 }
-iframe {
-  margin-left: auto;
-  margin-right: auto;
-}
-div, iframe {
-    width: 100px;
-    height: 50px;
+ iframe {
+    width: 800px;
+    height: 600px;
     margin: 0 auto;
-    display: block;
+   display: block;
 }
 body {text-shadow: 2px 2px 5px white;}
-
